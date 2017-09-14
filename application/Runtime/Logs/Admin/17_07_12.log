@@ -1,0 +1,962 @@
+[ 2017-07-12T10:38:17+08:00 ] 127.0.0.1 /Admin/Goods/addgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-07-12T10:38:18+08:00 ] 127.0.0.1 /Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2017-07-12T10:38:19+08:00 ] 127.0.0.1 /Admin/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2017-07-12T10:38:39+08:00 ] 127.0.0.1 /Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SELECT * FROM `sp_manager` WHERE ( manager_name='admin' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `sp_manager` SET `manager_login`='1499827119' WHERE `manager_id` = '10' [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2017-07-12T10:38:42+08:00 ] 127.0.0.1 /Admin/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0065s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+ERR: 模板不存在:./application/Admin/View/Main/index.html
+
+[ 2017-07-12T10:39:53+08:00 ] 127.0.0.1 /Admin/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0137s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002648s ]
+
+[ 2017-07-12T10:39:54+08:00 ] 127.0.0.1 /Admin/Main/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002696s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0040s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-07-12T10:39:55+08:00 ] 127.0.0.1 /Admin/Main/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0047s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `role_auth_ids` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_auth` WHERE ( auth_id in (1,4,5,6,2,7,3,8,9,18,19,20) and auth_pid=0 and auth_show=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_auth` WHERE ( auth_id in (1,4,5,6,2,7,3,8,9,18,19,20) and  auth_pid!=0 and auth_show=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2017-07-12T10:39:56+08:00 ] 127.0.0.1 /Admin/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0045s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2017-07-12T10:40:07+08:00 ] 127.0.0.1 /Admin/goods/addgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0105s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2017-07-12T10:40:19+08:00 ] 127.0.0.1 /Admin/goods/addgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0065s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\WWW\Thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1187 行.
+NOTIC: [8] Undefined index: auto D:\WWW\Thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1130 行.
+
+[ 2017-07-12T10:41:59+08:00 ] 127.0.0.1 /Admin/goods/addgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0083s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate D:\WWW\Thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1187 行.
+NOTIC: [8] Undefined index: auto D:\WWW\Thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1130 行.
+
+[ 2017-07-12T21:05:24+08:00 ] 127.0.0.1 /admin/goods/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-07-12T21:05:26+08:00 ] 127.0.0.1 /Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-07-12T21:05:26+08:00 ] 127.0.0.1 /Admin/Index/__ADMINCSS__/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+ERR: 非法操作:__ADMINCSS__
+
+[ 2017-07-12T21:05:26+08:00 ] 127.0.0.1 /Admin/Index/__ADMINJS__/cloud.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+ERR: 非法操作:__ADMINJS__
+
+[ 2017-07-12T21:05:26+08:00 ] 127.0.0.1 /Admin/Index/__ADMINJS__/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+ERR: 非法操作:__ADMINJS__
+
+[ 2017-07-12T21:05:26+08:00 ] 127.0.0.1 /Admin/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-07-12T21:05:26+08:00 ] 127.0.0.1 /Admin/Index/__ADMINJS__/cloud.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+ERR: 非法操作:__ADMINJS__
+
+[ 2017-07-12T21:05:26+08:00 ] 127.0.0.1 /Admin/Index/__ADMINIMG__/light.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-07-12T21:06:33+08:00 ] 127.0.0.1 /Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2017-07-12T21:06:33+08:00 ] 127.0.0.1 /Admin/Index/__ADMINIMG__/light.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+
+[ 2017-07-12T21:06:33+08:00 ] 127.0.0.1 /Admin/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-07-12T21:06:41+08:00 ] 127.0.0.1 /Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SELECT * FROM `sp_manager` WHERE ( manager_name='' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: UPDATE `sp_manager` SET `manager_login`='1499864801' WHERE `manager_id` = '8' [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002615s ]
+
+[ 2017-07-12T21:06:44+08:00 ] 127.0.0.1 /Admin/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0146s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001982s ]
+
+[ 2017-07-12T21:06:46+08:00 ] 127.0.0.1 /Admin/Main/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0163s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2017-07-12T21:06:47+08:00 ] 127.0.0.1 /Admin/Main/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0146s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `role_auth_ids` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sp_auth` WHERE ( auth_id in (1,4,5,6,2,7,3,8,9,18,19,20) and auth_pid=0 and auth_show=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sp_auth` WHERE ( auth_id in (1,4,5,6,2,7,3,8,9,18,19,20) and  auth_pid!=0 and auth_show=1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_c - assumed 'auth_c' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+NOTIC: [8] Use of undefined constant auth_a - assumed 'auth_a' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\4a8c570a9706580de9bfec50676ff7a4.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2017-07-12T21:06:48+08:00 ] 127.0.0.1 /Admin/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.7080s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2017-07-12T21:06:57+08:00 ] 127.0.0.1 /Admin/Goods/goodsList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0146s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `sp_goods` LIMIT 0,2   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_goods` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\af8781c0ac9c25562ee238804b947ffa.php 第 75 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\af8781c0ac9c25562ee238804b947ffa.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-07-12T21:06:57+08:00 ] 127.0.0.1 /Admin/Goods/images/ticon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-07-12T21:09:27+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0148s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: pic_list D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2017-07-12T21:10:39+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.1554s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: pic_list D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2017-07-12T21:10:42+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0148s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: pic_list D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2017-07-12T21:15:31+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0087s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: pic_list D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2017-07-12T21:22:39+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0155s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: pic_list D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-07-12T21:22:54+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0151s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: file D:\WWW\Thinkphp\application\Admin\Controller\GoodsController.class.php 第 22 行.
+
+[ 2017-07-12T21:23:46+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0153s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-07-12T21:31:13+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0137s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-07-12T21:35:06+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0155s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0039s ]
+ERR: Think\Model:insertPic方法不存在！
+
+[ 2017-07-12T21:35:48+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0160s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2017-07-12T21:40:08+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0042s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2017-07-12T22:15:51+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0148s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\Thinkphp\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\WWW\Thinkphp\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: INSERT INTO `sp_goodspic` (`pic_goodsid`,`pic_ori`,`pic_big`,`pic_mid`,`pic_sma`) VALUES ('2','./Uploads/2017-07-12/59662f153b888.jpg','./Uploads/2017-07-12/big_59662f153b888.jpg','./Uploads/2017-07-12/mid_59662f153b888.jpg','./Uploads/2017-07-12/sma_59662f153b888.jpg'),('2','./Uploads/2017-07-12/59662f153e2e5.png','./Uploads/2017-07-12/big_59662f153e2e5.png','./Uploads/2017-07-12/mid_59662f153e2e5.png','./Uploads/2017-07-12/sma_59662f153e2e5.png') [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2017-07-12T22:15:53+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0146s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: pic_list D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-07-12T22:19:44+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0040s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: pic_list D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2017-07-12T22:20:05+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0161s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2017-07-12T22:20:06+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0165s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+NOTIC: [2] Illegal string offset 'pic_mid' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 24 行.
+NOTIC: [2] Illegal string offset 'pic_id' D:\WWW\Thinkphp\application\Runtime\Cache\Admin\774f6a54e57fc55b49ffd7987ab68910.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2017-07-12T22:20:07+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0078s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2017-07-12T22:21:42+08:00 ] 127.0.0.1 /Admin/Goods/photos/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0086s ]
+SQL: SELECT `role_auth_path` FROM `sp_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+

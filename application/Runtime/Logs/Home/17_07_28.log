@@ -1,0 +1,160 @@
+[ 2017-07-28T15:28:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 159 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 154 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+NOTIC: [8] Use of undefined constant cate_id - assumed 'cate_id' D:\WWW\Thinkphp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+

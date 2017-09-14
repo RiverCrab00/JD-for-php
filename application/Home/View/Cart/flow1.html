@@ -1,0 +1,106 @@
+{__NOLAYOUT__}
+<layout name='cart' />	
+	<div style="clear:both;"></div>
+
+	<!-- 主体部分 start -->
+	<div class="mycart w990 mt10 bc">
+		<h2><span>我的购物车</span></h2>
+		<table>
+			<thead>
+				<tr>
+					<th class="col1">商品名称</th>
+					<th class="col2">商品信息</th>
+					<th class="col3">单价</th>
+					<th class="col4">数量</th>	
+					<th class="col5">小计</th>
+					<th class="col6">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+			<foreach name='cart_list' item='vo'>
+				<tr>
+					<td class="col1"><a href=""><img src="{$vo.goods_small_logo|ltrim=###,'.'}" alt="" /></a>  <strong><a href="">{$vo.goods_name}</a></strong></td>
+					<td class="col2"><p>{$vo.cart_attr}</p></td>
+					<td class="col3">￥<span>{$vo.goods_price}</span></td>
+					<td class="col4"> 
+						<a href="javascript:;" class="reduce_num" onclick="getNum('reduce',{$vo[cart_id]})"></a>
+						<input type="text" name="amount{$vo.cart_id}" value="{$vo.cart_num}" class="amount" onkeyup="getNum('key',{$vo[cart_id]})" />
+						<a href="javascript:;" class="add_num" onclick="getNum('add',{$vo[cart_id]})"></a>
+					</td>
+					<td class="col5">￥<span>{$vo.total_price}</span></td>
+					<td class="col6"><a href="javascript:void(0)" class='delcart' data='{$vo.cart_id}'>删除</a></td>
+				</tr>
+			</foreach>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="6">购物金额总计： <strong>￥ <span id="total">{$price}</span></strong></td>
+				</tr>
+			</tfoot>
+		</table>
+		<div class="cart_btn w990 bc mt10">
+			<a href="" class="continue">继续购物</a>
+			<a href="{:U('Cart/flow2')}" class="checkout">结 算</a>
+		</div>
+	</div>
+	<!-- 主体部分 end -->
+
+	<div style="clear:both;"></div>
+	
+<script>
+	function getNum(type,cart_id){
+		var obj=$("[name=amount"+cart_id+"]");
+		var num=obj.val();
+		var total=0;
+		if(type=='reduce'){
+			if(num==1){
+				alert('最少一件商品')
+				num=2;
+			}
+			--num
+		}else if(type=='add'){
+			++num 
+		}else{
+			if(num<1){
+				alert('最少一件商品')
+				num=1;
+			}
+		}
+		$("[name=amount"+cart_id+"]").val(parseInt(num));
+		var col3=obj.parent().parent().find('.col3 span').text();
+		obj.parent().parent().find('.col5 span').text((num*col3).toFixed(2));
+		$('.col5 span').each(function(){
+			total+=parseFloat($(this).text());
+		})
+		$('#total').text(total.toFixed(2));
+        /*var obj='[name=amount'+cart_id+']';
+        var num_obj=$(obj);
+        var num=num_obj.val();
+        if(type=='add'){
+            ++num;
+        }else if(type=='reduce'){
+            if(num-1<1){
+                alert('购买数量为1');
+            }else{
+                --num
+            }
+        }else{
+            if(num<1){
+                alert('购买数量最小为1');
+                num=1;
+            }
+        }
+        num_obj.val(num);
+        $("[name=amount"+cart_id+"]").val(parseInt(num));
+		var col3=obj.parent().parent().find('.col3 span').text();
+		obj.parent().parent().find('.col5 span').text((num*col3).toFixed(2));
+		$('.col5 span').each(function(){
+			total+=parseFloat($(this).text());
+		})
+		$('#total span').text(total.toFixed(2));*/
+        var data={'num':num,'cart_id':cart_id};
+        $.post("{:U('Cart/modify')}",data,function(msg){
+            
+        })
+    }
+</script>
